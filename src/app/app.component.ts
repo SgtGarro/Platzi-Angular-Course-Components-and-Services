@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   imgParent = 'my-store';
+  onLoad(img: string) {
+    console.log("log padre", img);
+  }
 }
