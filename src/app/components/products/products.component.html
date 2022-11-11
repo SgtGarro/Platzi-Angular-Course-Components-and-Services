@@ -1,5 +1,8 @@
 <p>Objetos enlistados: {{ myShoppingCart.length }}</p>
 <p>Total: ${{ total }}</p>
+<p>Today: {{ today | date: "full" }}</p>
+<p>Otra fecha: {{ date | date: "yyyy.dd.MM" }}</p>
+<p>{{ "hOLA BasCVASas asASA" | uppercase }}</p>
 <div class="products--grid">
   <app-product
     [product]="product"
